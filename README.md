@@ -1,0 +1,1 @@
+This is a basic website, with simple javascript, and simple use of Quotable API.
