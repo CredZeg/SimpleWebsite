@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>David's Website</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="container">
+            <h1></h1>
+        </div>
+    </header>
+    <nav id="navBar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+    </nav>
+    <section id="main" class="chunk">
+        <form id="my-form">
+            <h1>Registration Form</h1>
+            <div class="god">
+                <div>
+                    <label>First Name</label>
+                    <input id="fName" type="text" name="firstName" placeholder="Enter first name">
+                </div>
+                <br />
+                <div>
+                    <label>Last Name</label>
+                    <input id="lName" type="text" name="lastName" placeholder="Enter last name">
+                </div>
+                <br />
+                <div>
+                    <label>Which operating system do you use</label>
+                    <ul id="random">
+                        <li><label>Mac</label> <input id="rd1" name="codingLang" type="radio" value="Mac"></li>
+                        <li><label>Windows</label> <input id="rd2" name="codingLang" type="radio" value="Windows"></li>
+                        <li><label>Linux</label> <input id="rd3" name="codingLang" type="radio" value="Linux"></li>
+                    </ul>
+                </div>
+                <div>
+                    <label>What is your favourite programming language?</label>
+                    <select id="lang" name="lang">
+                        <option value="Java">Java</option>
+                        <option value="C++">C++</option>
+                        <option value="Python">Python</option>
+                    </select>
+                </div>
+                <div>
+                    <input class="submit" type="submit" name="submit" value="Submit" disabled>
+                </div>
+                <br />
+                <div id="users"></div>
+            </div>
+        </form>
+    </section>
+    <aside id="sidebar" class="chunk">
+        <div >
+            <input class="sideSearch" type="text" name="search" placeholder="search" />
+        </div>
+        <div id="thing">
+            <input class="quote" type="button" value="Random Quote">
+        </div>
+    </aside>
+    <script src="main.js"></script>
+</body>
+</html>

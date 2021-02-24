@@ -1,0 +1,93 @@
+body {
+    background-color: #f4f4f4;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container {
+
+}
+#mainHeader {
+    background-image: url('../images/4ksnow.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 150%; 
+    padding:5em;
+}
+#navBar {
+    background-color:#2B2D2F;
+    color:white;
+    word-spacing:20px;
+    margin: 3em;
+    position: relative;
+    height: auto;
+    border: 2px black solid;
+    margin: 0;
+}
+#navBar a{
+    text-decoration:none;
+}
+#navBar a:visited{
+    color:white;
+}
+
+#navBar ul {
+    list-style: none;
+}
+
+#navBar li {
+    display: inline;
+}
+.chunk {
+    height: 26em;
+    box-sizing: border-box;
+}
+#sidebar {
+    background-repeat:no-repeat;
+    background-size:100% 100%; 
+    margin-top: 2em;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+#sidebar p1{
+    padding-left:100%;
+}
+.sideSearch {
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+#sidebar div{
+    padding-left: 2.5%;
+}
+#main {
+    float: right;
+    width: 70%;
+    background-size: 100% 150%;
+    padding: 2em;
+    font-family: Calibri, Helvetica, sans-serif;
+    color: #555;
+    box-sizing: border-box;
+}
+#main h1{
+    padding-left:2em;
+}
+.god {
+    padding-bottom: 2em;
+    padding-left: 4em;
+    padding-top: 0em;
+}
+#main form {
+    border: 2px black solid;
+
+}
+#random ul {
+    list-style: none;
+}
+#random li {
+    display: inline;
+}
